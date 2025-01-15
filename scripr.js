@@ -14,7 +14,7 @@ button.addEventListener('click',function(event){ //عملیات کلیک
     
     if(BMI<18.5){
         interpretation.innerHTML="تفسیر : کم وزن";
-        text.innerHTML="ت باید یه لقمه بیشتر بخوری، شاید بتونی به طرف دیگه قابلمه برسی!"
+        text.innerHTML="تو باید یه لقمه بیشتر بخوری، شاید بتونی به طرف دیگه قابلمه برسی!"
     }else if(BMI>=18.5 && BMI<=24.99){
         interpretation.innerHTML="تفسیر : وزن نرمال";
         text.innerHTML="نه خیلی چاق، نه خیلی لاغر… مثل یک کیسه برنج متوسط! نه سنگین، نه سبک، فقط در بهترین حالت خودت!";
