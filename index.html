@@ -7,7 +7,23 @@
     <title>BMI</title>
 </head>
 <body>
-    
+    <div class="container">
+        <h1>محاسبه شاخص توده بدن (BMI)</h1>
+        <form id="bmi-form">
+            <label for="weight">وزن(کیلوگرم):</label>
+            <input type="number" id="weight" placeholder="وزن خود را وارد کنید" required>
+
+            <label for="height">قد(سانتیمتر):</label>
+            <input type="number" id="height" placeholder="قد خود را وارد کنید" required>
+
+            <button type="submit">محاسبه BMI</button>
+        </form>
+
+        <div class="result">
+            <p id="bmi-value"></p>
+            <p id="interpretation"></p>
+        </div>
+    </div>
 
 
 
