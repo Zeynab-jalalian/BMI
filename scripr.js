@@ -4,5 +4,5 @@ let weight=document.getElementById('weight');
 let height=document.getElementById('height');
 
 button.addEventListener('click',function(event){
-    form.preventDefault();
+    event.preventDefault();
 })
